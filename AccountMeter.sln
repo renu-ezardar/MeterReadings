@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E8A552F2-2B2A-4626-956B-F2B5EA842D07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountMeter.API", "src\AccountMeter.API\AccountMeter.API.csproj", "{802EFF7C-0416-4874-887A-EB2324E92FDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountMeter.BusinessLogic", "src\AccountMeter.BusinessLogic\AccountMeter.BusinessLogic.csproj", "{8053ACCD-907D-4658-A703-C70122FFEE76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountMeter.Infrastructure", "src\AccountMeter.Infrastructure\AccountMeter.Infrastructure.csproj", "{EC1D80D6-1092-4DAD-8A26-37338ECE10B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountMeter.Common", "src\AccountMeter.Common\AccountMeter.Common.csproj", "{D9A1B149-EE1F-4EEF-B1D6-A60101805414}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{802EFF7C-0416-4874-887A-EB2324E92FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802EFF7C-0416-4874-887A-EB2324E92FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802EFF7C-0416-4874-887A-EB2324E92FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802EFF7C-0416-4874-887A-EB2324E92FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8053ACCD-907D-4658-A703-C70122FFEE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8053ACCD-907D-4658-A703-C70122FFEE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8053ACCD-907D-4658-A703-C70122FFEE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8053ACCD-907D-4658-A703-C70122FFEE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC1D80D6-1092-4DAD-8A26-37338ECE10B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC1D80D6-1092-4DAD-8A26-37338ECE10B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC1D80D6-1092-4DAD-8A26-37338ECE10B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC1D80D6-1092-4DAD-8A26-37338ECE10B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A1B149-EE1F-4EEF-B1D6-A60101805414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A1B149-EE1F-4EEF-B1D6-A60101805414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A1B149-EE1F-4EEF-B1D6-A60101805414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A1B149-EE1F-4EEF-B1D6-A60101805414}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{802EFF7C-0416-4874-887A-EB2324E92FDF} = {E8A552F2-2B2A-4626-956B-F2B5EA842D07}
+		{8053ACCD-907D-4658-A703-C70122FFEE76} = {E8A552F2-2B2A-4626-956B-F2B5EA842D07}
+		{EC1D80D6-1092-4DAD-8A26-37338ECE10B6} = {E8A552F2-2B2A-4626-956B-F2B5EA842D07}
+		{D9A1B149-EE1F-4EEF-B1D6-A60101805414} = {E8A552F2-2B2A-4626-956B-F2B5EA842D07}
+	EndGlobalSection
+EndGlobal
