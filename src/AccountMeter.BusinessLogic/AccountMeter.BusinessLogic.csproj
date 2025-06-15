@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AccountMeter.Common\AccountMeter.Common.csproj" />
+    <ProjectReference Include="..\AccountMeter.Infrastructure\AccountMeter.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
