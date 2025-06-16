@@ -56,8 +56,9 @@ namespace AccountMeter.BusinessLogic
             string[] inputDateFormats = new string[] { "dd/MM/yyyy HH:mm", "dd/MM/yyyy hh:mm:ss tt" };
            foreach(Reading reading in readings)
             {
+                //TO DO - Ask interviewer if 0 is valid value or not
                 if (reading.AccountId <= 0
-                    || reading.MeterReadValue <= 0
+                    || reading.MeterReadValue < 0
                     || !DateTime.TryParseExact(reading.MeterReadingDateTime, inputDateFormats,
                     null, System.Globalization.DateTimeStyles.None, out DateTime result))
                 {
