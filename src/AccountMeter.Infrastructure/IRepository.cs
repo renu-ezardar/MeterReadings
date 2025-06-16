@@ -4,7 +4,7 @@ namespace AccountMeter.Infrastructure
 {
     public interface IRepository
     {
-        IEnumerable<Account> GetAllAccounts();
+        IList<int> GetAllAccountIds();
         bool AddMeterReadings(IList<MeterReading> readings);
     }
 }

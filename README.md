@@ -2,7 +2,10 @@
 Meter Readings
 
 This project is to Upload a CSV file with meter readings for account id
-  PreRequisite - Using DB first Approach so make sure  Accounts and Meterreading tables exists in DB and Account table list has valid AccountIds
+
+PreRequisite - 
+  
+1. Using DB first Approach so make sure  Accounts and Meterreading tables exists in DB and Account table list has valid AccountIds
 
   Create table MeterReadings  using following statements
 
@@ -33,6 +36,18 @@ References   Accounts (AccountID)
 
 
 Go
+
+
+2.Update  Connection string in src\AccountMeter.API\appsettings.Development.json  -- Ideally it should be in Secret manager if in AWS or some other secure place/
+
+
+--How to Run the Project 
+
+Open the solution in VS 2022, Run it  using ctrl+F5, Swagger will open, upload the needed file and test the fucntionality
+
+
+--Things to do 
+A unit test project can be added as well to verify the file inputs and data with local Db string or environment specific string 
 
 
 

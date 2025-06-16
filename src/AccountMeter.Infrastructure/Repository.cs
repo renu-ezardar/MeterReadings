@@ -28,11 +28,11 @@ namespace AccountMeter.Infrastructure
 
         }
 
-        public IEnumerable<Account> GetAllAccounts()
+        public IList<int> GetAllAccountIds()
         {
             try
             {
-                return _dbcontext.Accounts;
+                return _dbcontext.Accounts.Select(a=> a.AccountId).ToList();
 
             }
             catch (Exception ex)
